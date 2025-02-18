@@ -32,21 +32,21 @@ This script performs **incremental backups** of files from a specified source di
    backup_dir="/path/to/backup/directory"
    ```
 
-### 2️. Grant Execution Permission
+### 2. Grant Execution Permission
 
 Before running the script, make sure it has execution permissions:
 ```bash
 chmod +x backup_script.sh
 ```
 
-### 3️. Run the Script
+### 3. Run the Script
 
 Execute the script to start the backup process:
 ```bash
 ./backup_script.sh
 ```
 
-### 4️. Automate with Cron (Optional)
+### 4. Automate with Cron (Optional)
 
 To schedule the backup script to run daily at 2 AM, add the following line to your crontab (`crontab -e`):
 ```bash
