@@ -5,6 +5,7 @@ This directory contains various Bash scripts created for automation, system main
 
 ## Structure
 
+```plaintext
 bash_scripts/
 │
 ├── diff_backup/
@@ -12,22 +13,26 @@ bash_scripts/
 │   └── backup_script.sh
 │
 └── [future subdirectories and scripts]
+```
 
 ### Subdirectories:
 
-    diff_backup/: Contains the script for performing incremental backups, which only stores new or modified files since the last backup. The README file in this folder explains how to use the backup script, its configuration, and features.
+
+- `` diff_backup/ ``: Contains the script for performing incremental backups, which only stores new or modified files since the last backup. The README file in this folder explains how to use the backup script, its configuration, and features.
+
 
 ## Purpose
 
 The purpose of this directory is to centralize and organize Bash scripts that automate repetitive tasks, enhance productivity, and simplify system management. Each subdirectory will contain a specific script or set of related scripts.
-Usage
+
+## Usage
 
 
 Each script in this directory can be run from the terminal using the following syntax:
 
-    ```bash
-    /path/to/bash_scripts/script_name.sh
-    ```
+```bash
+/path/to/bash_scripts/script_name.sh
+```
 
 ## Contributing
 
