@@ -1,6 +1,3 @@
-Aqui está uma sugestão de README para o seu script:
-
----
 
 # File Compressor and Decompressor Script
 
