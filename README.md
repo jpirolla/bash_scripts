@@ -8,11 +8,24 @@ This directory contains various Bash scripts created for automation, system main
 ```plaintext
 bash_scripts/
 │
+├── compress_decompress/
+│   ├── README.md
+│   └── compress_decompress.sh
+│
+├── convert_images/
+│   ├── README.md
+│   └── convert_images.sh
+│
 ├── diff_backup/
 │   ├── README.md
 │   └── backup_script.sh
 │
+├── process_tracker/
+│   ├── README.md
+│   └── process_tracker.sh
+│
 └── [future subdirectories and scripts]
+
 ```
 
 ### Subdirectories:
